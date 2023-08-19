@@ -7,8 +7,8 @@ const ProductCard = () => {
   };
   return (
     <div className="w-full h-full relative flex flex-col min-h-fit">
-      <div className="w-full h-3/4 absolute"><ProductImage {...product} /></div>
-      <div className="w-full h-1/4 absolute bottom-0 p-1">
+      <ProductImage {...product} />
+      <div className="w-full bottom-0 px-1">
         <div className="h-1/3 text-lg text-ellipsis whitespace-nowrap overflow-hidden">Nike</div>
         <div className="h-1/3 text-sm text-ellipsis whitespace-nowrap overflow-hidden">ProductName Could Be anything ProductName Could Be anything</div>
         <div className="h-1/3 text-xs whitespace-nowrap overflow-hidden flex gap-2">

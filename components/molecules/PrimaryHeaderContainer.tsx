@@ -8,10 +8,10 @@ const PrimaryHeaderContainer = () => {
             <div>search</div>
             <div className="flex gap-3">
                 <div >orders</div>
+                <div>Cart</div>
                 <div>
                     <ProfileNavSection />
                 </div>
-                <div>Cart</div>
             </div>
         </div>
     )

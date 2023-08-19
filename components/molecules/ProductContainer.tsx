@@ -53,7 +53,7 @@ const ProductContainer = () => {
       },
   ];
   return (
-    <div className="flex flex-shrink-0 flex-grow-0 flex-wrap overflow-scroll min-h-screen">
+    <div className="flex flex-shrink-0 flex-grow-0 flex-wrap min-h-screen">
       {imgs.map((img, index) => (
         <div key={index} className="relative w-1/3 p-3 h-96"><ProductCard /></div>
       ))}
